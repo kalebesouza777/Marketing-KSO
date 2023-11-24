@@ -1,0 +1,66 @@
+.bd {
+    background-color: rgb(0, 0, 0);
+}
+
+.hd {
+    text-align: center;
+    color: rgb(204, 193, 135);
+    animation: frase 3s ease-out;
+    text-shadow: 0px 10px 20px;
+    text-decoration: underline rgb(249, 223, 223);
+}
+
+.p {
+    font-size: 20px;
+    color: beige;
+    position: relative;
+    top: -630px;
+    left: -40px;
+    margin-left: 20px;
+    margin: 20px;
+    padding: 12px;
+    margin-right: 410px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(204, 193, 135);
+    background: color(rgb(249, 223, 223));
+}
+
+.divisao {
+    margin: 0;
+    padding: 0;
+    background-image: url('realfotoempresa.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.links {
+    position: relative;
+    margin-top: -850px;
+    margin-left: 1200px;
+}
+
+.links2 {
+    color: goldenrod;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px white;
+}
+
+.linkscontato {
+    position: relative;
+    margin-top: -691px;
+    margin-left: 1200px;
+}
+
+@keyframes frase {
+    from {
+        margin-left: -100%;
+        opacity: 0;
+    }
+
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
